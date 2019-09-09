@@ -1,0 +1,91 @@
+#myVideo { 
+    height: auto;
+     width: 88%; 
+    
+}
+
+/* .spotlight {
+    margin-left: 240px;
+    margin-right: 240px;
+    
+} */
+
+
+
+.wrapper.style2, .spotlight {
+    background-image: url("../../images/background/micro_carbon.png");
+    background-repeat: repeat;
+}
+.spotlight {
+    line-height: 0;
+    /* margin: 16px;  */
+    margin: 20px 80px;
+ 
+}
+
+
+#shadow-1:hover {
+ box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+                0 6px 30px 5px rgba(0,0,0,0.12), 
+                0 8px 10px -7px rgba(0,0,0,0.2);
+}
+.spotlight:hover {
+    box-shadow: 0px 5px 16px 5px black inset; 
+     padding: 16px;
+    /* margin-top: 16px;
+    margin-bottom: 16px;   */
+}
+
+a {
+    border-bottom: none;
+}
+
+.left { 
+    border-left: 4px double black;
+}
+
+.right {
+    border-right: 4px double black; 
+}
+
+.right:hover, .left:hover {
+ border: none;
+}
+
+.wrapper {
+    margin: 8.5em 0; 
+}
+
+#banner h2 {
+    font-family:'Raleway', sans-serif;
+    /* font-weight: lighter; */
+}
+
+
+#banner h2:before, #banner h2:after {
+    height: 1px; 
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+    0 6px 30px 5px rgba(0,0,0,0.12), 
+    0 8px 10px -7px rgba(0,0,0,0.2);
+}
+
+#two {
+    padding-top: 2em; 
+}
+
+body.landing #page-wrapper {
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../images/background/micro_carbon.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+}
+
+.wrapper.style1 {
+    background-image: url("../../images/background/micro_carbon.png");
+    background-repeat: repeat;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+    0 6px 30px 5px rgba(0,0,0,0.12), 
+    0 8px 10px -7px rgba(0,0,0,0.2);
+}
