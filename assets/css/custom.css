@@ -76,7 +76,7 @@ a {
 body.landing #page-wrapper {
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../images/background/micro_carbon.png");
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0;
@@ -88,4 +88,79 @@ body.landing #page-wrapper {
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
     0 6px 30px 5px rgba(0,0,0,0.12), 
     0 8px 10px -7px rgba(0,0,0,0.2);
+}
+
+#two {
+   padding: 6em 0 4em 0;
+   margin: 0; 
+}
+
+footer, #header a{
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../images/background/micro_carbon.png");
+
+
+    /* background-position: center; */
+    background-repeat: repeat;
+    width: 100%;
+}
+body{
+    font-family:'Raleway', sans-serif;
+}
+
+footer {
+    margin-top: 6em; 
+}
+
+#two {
+    margin-bottom: 6em; 
+}
+
+
+
+#header nav {
+    margin-right: 90px; 
+    font-family:'Raleway', sans-serif;
+}
+
+#header h1 {
+    left: 0; 
+}
+
+#header h1 a {
+    padding-left: 80px;
+    left: 0;
+    font-family:'Raleway', sans-serif;
+}
+
+#get-in-touch {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-image: url("../../images/background/micro_carbon.png");
+    background-repeat: repeat;
+    padding: 20px; 
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+    0 6px 30px 5px rgba(0,0,0,0.12), 
+    0 8px 10px -7px rgba(0,0,0,0.2);
+
+}
+
+input[type="text"], input[type="password"], input[type="email"], select, textarea  {
+    background-image: url("../../images/background/micro_carbon.png");
+    background-repeat: repeat;
+    padding: 4px;
+    background-color: transparent; 
+    border-bottom: 1px solid black; 
+}
+
+input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
+    font-family:'Raleway', sans-serif;
+    background-color: black;
+    color: white; 
+    border-radius: 0; 
+    margin-top: 14px; 
+}
+
+body {
+    background-image: url("../../images/background/micro_carbon.png");
+    background-repeat: repeat;
 }
