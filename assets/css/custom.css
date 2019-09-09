@@ -313,9 +313,71 @@ input[type="submit"].primary:hover, .button.primary:hover {
     .spotlight .content {
         margin: 0 auto;
         margin-top: 4em;
-    }
-    #two .spotlight .content p, #two .spotlight .content h2 {
-        text-align: center; 
+        padding: 0;
     }
     
+}
+
+@media screen and (max-width: 320px) {
+    #profile-image {
+        width: 10em;
+    }
+    .spotlight {
+        margin: 10vh 10vw;
+    }
+
+    .spotlight .content {
+        margin: 0 auto;
+        margin-top: 2em;
+       padding: 0; 
+    }
+    .wrapper {
+        margin: 0;
+    }
+
+    #two {
+        padding: 0;
+        margin-bottom: 2em; 
+    }
+
+    #portfolio {
+        width: 100%;
+        margin-bottom: 0;
+    
+    }
+
+    #two h2 {
+        border-bottom: 1px solid black; 
+        padding-bottom: .5em; 
+        padding-top: 1.5em;
+        margin: 0;
+        font-weight: bold;
+        color: black;
+        font-size: 1.1em; 
+        text-align: left; 
+        letter-spacing: 1px; 
+    }
+
+    #two .spotlight .content p {
+        padding-top: 1em;
+        line-height: 1.5; 
+        font-size: .8em; 
+        margin: 0;
+    }
+
+    #get-in-touch {
+        max-width: 260px;
+    }
+    #banner {
+        height: 100vh; 
+    }
+    #header h1 a {
+        text-align: center;
+        padding: 0;
+    }
+
+    #banner p {
+        padding-top: 3em; 
+    }
+
 }
