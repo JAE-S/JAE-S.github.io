@@ -1859,7 +1859,9 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			/* box-shadow: 0 0 0 2px #21b2a6; */
+			  box-shadow: 0px 2px 8px 2px black;  
+			  padding: 10px;
 		}
 
 	select {
@@ -2487,9 +2489,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
-			box-shadow: none !important;
-			color: #ffffff !important;
+			/* background-color: #ed4933; */
+			box-shadow: none;
+			color: #ffffff;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2497,7 +2499,13 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: white;
+				color: black;
+				font-weight: bold; 
+				font-size: .9em; 
+				box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+				0 6px 30px 5px rgba(0,0,0,0.12), 
+				0 8px 10px -7px rgba(0,0,0,0.2);
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2513,11 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				/* background-color: #eb341c !important; */
+				background-color: white;
+				color: black;
+				font-weight: bold; 
+				font-size: .9em; 
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,

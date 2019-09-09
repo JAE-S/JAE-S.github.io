@@ -24,16 +24,34 @@
 }
 
 
-#shadow-1:hover {
+#shadow-1:hover{
  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
                 0 6px 30px 5px rgba(0,0,0,0.12), 
                 0 8px 10px -7px rgba(0,0,0,0.2);
+                
 }
+#profile-image {
+   
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+                0 6px 30px 5px rgba(0,0,0,0.12), 
+                0 8px 10px -7px rgba(0,0,0,0.2);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari */
+    transform: rotate(-45deg);
+width: 18em;
+margin-left: 3em;
+
+}
+
+.spotlight .content {
+    max-width: 100%;
+    padding: 2em 0em 0.1em 4em;
+    margin-left: 3em;
+}
+
 .spotlight:hover {
     box-shadow: 0px 5px 16px 5px black inset; 
      padding: 16px;
-    /* margin-top: 16px;
-    margin-bottom: 16px;   */
 }
 
 a {
@@ -69,9 +87,6 @@ a {
     0 8px 10px -7px rgba(0,0,0,0.2);
 }
 
-#two {
-    padding-top: 2em; 
-}
 
 body.landing #page-wrapper {
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../images/background/micro_carbon.png");
@@ -90,16 +105,10 @@ body.landing #page-wrapper {
     0 8px 10px -7px rgba(0,0,0,0.2);
 }
 
-#two {
-   padding: 6em 0 4em 0;
-   margin: 0; 
-}
 
 footer, #header a{
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../images/background/micro_carbon.png");
 
-
-    /* background-position: center; */
     background-repeat: repeat;
     width: 100%;
 }
@@ -113,6 +122,9 @@ footer {
 
 #two {
     margin-bottom: 6em; 
+    padding-top: 2em; 
+    padding: 6em 0 4em 0;
+    margin: 0; 
 }
 
 
@@ -163,4 +175,147 @@ input[type="submit"].primary, input[type="reset"].primary, input[type="button"].
 body {
     background-image: url("../../images/background/micro_carbon.png");
     background-repeat: repeat;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    margin-bottom: 2em; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder; 
+    color: white;
+}
+
+input[type="submit"].primary:hover, .button.primary:hover {
+    background-color: white; 
+    color: black; 
+}
+
+#about-me {
+    /* max-width: 906px;  */
+    margin: 0 auto; 
+    display: flex; 
+    align-items: top; 
+}
+
+#hello {
+    padding-bottom: .4em; 
+    border-bottom: 4px double black; 
+    padding-top: 2.2em; 
+    color: white;
+    text-align: left; 
+    /* font-weight: bold;  */
+}
+
+.wrapper > .inner {
+    width: 70em; 
+}
+
+.style1 p {
+    text-align: left; 
+    color: grey;
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em; 
+}
+
+.wrapper.style1 {
+    color: white; 
+}
+
+#one{
+    padding: 1em 0 1em 0;
+}
+#no-box:hover {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0;
+}
+
+#portfolio { 
+    margin: 0 auto; 
+    
+    text-shadow: 1px 1px 1px #000000;
+    width: 20em; 
+    border-bottom: 4px double black; 
+    border-top: 4px double black; 
+    padding-top: 1em; 
+    padding-bottom: 0; 
+    margin-bottom: 4em; 
+    text-align: center; 
+    font-size: 1.5em;
+}
+
+#portfolio h1 {
+    text-shadow: 1px 1px 1px #000000;
+    color: black;
+    font-weight: bold;
+}
+
+#myVideo, .spotlight .image img {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
+    0 6px 30px 5px rgba(0,0,0,0.12), 
+    0 8px 10px -7px rgba(0,0,0,0.2);
+}
+
+#two h2 {
+    border-bottom: 1px solid black; 
+    padding-bottom: .5em; 
+    margin: 2em;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em; 
+    text-align: left; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#two .spotlight .content {
+    padding: 0;
+    margin: 0;
+}
+#two .spotlight .content p {
+    margin: 0 3em;
+    line-height: 1.5; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: grey; 
+    text-align: left; 
+  
+}
+#two { 
+    margin-bottom: 6em; 
+}
+
+.details {
+    color: grey;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media screen and (max-width: 980px) {
+    .wrapper.style1, .spotlight:hover {
+        box-shadow: none !important; 
+         padding: 0 !important;
+    }
+    .left { 
+        border-left: none !important;
+    }
+    
+    .right {
+        border-right:none !important; 
+    }
+    #myVideo, .spotlight .image img {
+        width: 100%;
+    }
+
+    #profile-image {
+        width: 18em;
+        margin: 0 auto; 
+    }
+
+    .spotlight .content {
+        margin: 0 auto;
+        margin-top: 4em;
+    }
+    #two .spotlight .content p, #two .spotlight .content h2 {
+        text-align: center; 
+    }
+    
 }
