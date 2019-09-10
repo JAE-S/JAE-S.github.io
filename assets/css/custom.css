@@ -144,7 +144,7 @@ footer {
     font-family:'Raleway', sans-serif;
 }
 
-#get-in-touch {
+#contact {
     max-width: 800px; 
     margin: 0 auto; 
     background-image: url("../../images/background/micro_carbon.png");
@@ -196,7 +196,7 @@ input[type="submit"].primary:hover, .button.primary:hover {
     align-items: top; 
 }
 
-#hello {
+#about-me {
     padding-bottom: .4em; 
     border-bottom: 4px double black; 
     padding-top: 2.2em; 
@@ -365,7 +365,7 @@ input[type="submit"].primary:hover, .button.primary:hover {
         margin: 0;
     }
 
-    #get-in-touch {
+    #contact {
         max-width: 260px;
     }
     #banner {
