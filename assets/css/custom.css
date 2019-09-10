@@ -41,6 +41,7 @@
 width: 18em;
 margin: 0 auto; 
 margin-right: 3em;
+margin-left: 1em;
 
 }
 
@@ -216,6 +217,8 @@ input[type="submit"].primary:hover, .button.primary:hover {
     font-size: .8em;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5em; 
+    padding-left: .8em;
+    padding-right: .8em;
 }
 
 .wrapper.style1 {
@@ -235,7 +238,7 @@ input[type="submit"].primary:hover, .button.primary:hover {
     margin: 0 auto; 
     
     text-shadow: 1px 1px 1px #000000;
-    width: 20em; 
+    width: 26em; 
     border-bottom: 4px double black; 
     border-top: 4px double black; 
     padding-top: 1em; 
