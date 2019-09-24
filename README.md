@@ -1,9 +1,9 @@
-![J.Sholler Portfolio](portfolio_cover_photo.png)
+![Portfolio](images/portfolio_cover.png)
 
 ### VISUAL DESIGNER & UI DEVELOPER
 ---
 
 *PORTFOLIO*
 ```
-JAE-S.github.io
+[GitHub]http://JAE-S.github.io
 ```
