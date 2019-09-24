@@ -5,5 +5,5 @@
 
 *PORTFOLIO*
 ```
-[GitHub]https://jae-s.github.io/
+[Portfolio][https://jae-s.github.io/]
 ```
