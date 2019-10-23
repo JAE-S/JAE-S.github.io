@@ -19,7 +19,7 @@
 #banner, body.is-mobile.landing #banner {
  background-image: url("../images/banner_2.jpg")!important;
 background-repeat: no-repeat;
-  background-size: stretch;
+  background-size: cover;
 }
 
 

@@ -1,9 +1,9 @@
-![Portfolio](images/portfolio_cover.png)
+![Portfolio](assets/images/portfolio_cover.png)
 
 ### Front-End Developer & VISUAL DESIGNER
 ---
 
 *PORTFOLIO*
 ---
-- [Click To View Portfolio][https://jae-s.github.io/]
+- [https://jae-s.github.io/]
 ---
