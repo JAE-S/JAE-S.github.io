@@ -19,7 +19,7 @@
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+			<!-- <div id="page-wrapper"> -->
 
 				<!-- Header -->
 					<header id="header" class="alt">
@@ -44,7 +44,8 @@
 					</header>
 
 				<!-- Banner -->
-					<section id="banner">
+					<section class="container-full-height" >
+						<div id="banner">
 						<div class="inner">
 							<h2>Jessie Sholler</h2>
 							
@@ -53,23 +54,25 @@
 							<p>Visual Designer</p>
 						</div>
 						<a href="#one" class="more scrolly"></a>
+					</div>
 					</section>
 
 				<!-- One -->
+				<div class="container-full-height"> 
 				<section id="one" class="wrapper style1 special">
 					<a name="about-me"></a>
 						<div id="no-box" class="spotlight">
 							<!-- <div id="about-me"> -->
 							
 							<div class="image">
-									<img id="profile-image"  src="images/profile_2.png" alt="Jessie Sholler" />
+									<img id="profile-image"  src="assets/images/profile_2.png"  alt="Jessie Sholler">
 							</div>
 							<div class="content" style="width: 100%">
 								<h2 id="about-me">Hi, I'm Jessie!</h2>
 								<p style="padding-top: 2em">I am a Front-End Web Developer & Visual Designer with a keen eye for detail.</p>
-								<p>A passion for creating human centered design has led me on a wild journeey from the Fast Fashion Industry to Web Design & Development. I find the increasing demand for accessibility practices in the digital space to be exciting and inspiring. Appreciating problems/limitations as creative opportunities is vital to my design process. I believe that an understanding of functional limitations can help elevate the aesthetics and usability of websites to invite a wider audience. </p>
+								<p>A passion for creating human centered design has led me on a wild journey from the Fast Fashion Industry to Web Design & Development. I find the increasing demand for accessibility practices in the digital space to be exciting and inspiring. Appreciating problems/limitations as creative opportunities is vital to my design process. I believe that an understanding of functional limitations can help elevate the aesthetics and usability of websites to invite a wider audience. </p>
 							
-								<p>To view my projects please: scroll, tab, arrow, or navigate your way down to the next section.</p>
+								<p>To view my projects please: scroll, tab, arrow, or navigate your way down to the following sections: <a href="#skills" class="nav-tags alt">Skills</a> <a href="#portfolio" class="nav-tags alt">Portfolio</a> <a href="#contact" class="nav-tags alt">Contact</a></p>
 							
 								<p style="text-indent: 3em">- Thank you for visiting my site!</p>
 							</div>
@@ -83,6 +86,18 @@
 							<!-- </div> -->
 						</div>
 					</section>
+					</div>
+					
+					<!-- Skills -->
+					<div class="container-full-height"> 
+						<section id="skills"> 
+								<a name="skills"></a>
+								<div class="section-header alt">
+									<h1><a href="">skills</a></h1>
+								</div>
+							<img src="assets/images/background/skills_dark_2.png" style="max-width: 100%; height: auto">
+						</section>
+					</div>
 
 				<!-- Portfolio Projects -->
 					<section id="two" class="wrapper alt style2">
@@ -96,7 +111,7 @@
 					
 							<a href="https://jae-s.github.io/RPS-multiplayer/" target="_blank" title="Rock Paper Scissors - Multiplayer Game">
 								<div class="image" style="width: 100%; height: auto">
-									<img src="images/rps_portfolio_cover.png" alt="Rock Paper Scissors Multi-Player Game" />
+									<img src="/assets/images/project_covers/rps_portfolio_cover.png" alt="Rock Paper Scissors Multi-Player Game" />
 								</div>
 							</a>
 							<div class="content">
@@ -111,7 +126,7 @@
 						<section class="spotlight left">
 							<a href="https://intense-beyond-18003.herokuapp.com/" target="_blank">
 								<div class="image" style="width: 100%">
-									<img align="right" src="images/fetch-a-friend-cover.png" alt="Full-Stack Web Application" />
+									<img align="right" src="/assets/images/project_covers/fetch-a-friend-cover.png" alt="Full-Stack Web Application" />
 								</div>
 							</a>
 							<div class="content">
@@ -125,7 +140,7 @@
 						<section class="spotlight right">
 							<a href="https://github.com/JAE-S/Liri-node-app" target="_blank">
 								<div class="image" style="width: 100%">
-									<img src="images/liri_bot_portfolio_cover.png" alt="CLI - Liri Bot App" />
+									<img src="/assets/images/project_covers/liri_bot_portfolio_cover.png" alt="CLI - Liri Bot App" />
 								</div>
 							</a>
 							<div class="content">
@@ -139,7 +154,7 @@
 						<section class="spotlight left">
 							<a href="https://jae-s.github.io/unit-4-game-crystals/" target="_blank">
 								<div class="image" style="width: 100%">
-									<img align="right" src="images/crystal_collector_portfolio_cover.png" alt="Crystal Collector Game" />
+									<img align="right" src="/assets/images/project_covers/crystal_collector_portfolio_cover.png" alt="Crystal Collector Game" />
 								</div>
 							</a>
 							<div class="content">
@@ -154,7 +169,7 @@
 							<a href="https://jae-s.github.io/Tic-Tac-Trivia/" target="_blank">
 								<div class="image" style="width: 100%; height: auto">
 									<video playsinline autoplay muted loop id="myVideo">
-										<source class="responsive-video" src="images/tic_tac_trivia_cover.mp4" type="video/mp4"  alt="Tic Tac Trivia - Multi-Player Game" preload>
+										<source class="responsive-video" src="/assets/images/project_covers/tic_tac_trivia_cover.mp4" type="video/mp4"  alt="Tic Tac Trivia - Multi-Player Game" preload>
 									</video>
 								</div>
 							</a>
@@ -169,7 +184,7 @@
 						<section class="spotlight left">
 							<a href="https://jae-s.github.io/Word_Guess_Game/" target="_blank">
 								<div class="image" style="width: 100%">
-									<img align="right" src="images/word_guess_game_cover.png" alt="Word Guess Game" />
+									<img align="right" src="/assets/images/project_covers/word_guess_game_cover.png" alt="Word Guess Game" />
 								</div>
 							</a>
 							<div class="content">
@@ -183,7 +198,7 @@
 					<section class="spotlight right">
 							<a href="https://jae-s.github.io/TriviaGame/" target="_blank">
 								<div class="image" style="width: 100%">
-									<img src="images/crazy_state_laws_portfolio_cover.png" alt="Crazy State Laws - Trivia" />
+									<img src="/assets/images/project_covers/crazy_state_laws_portfolio_cover.png" alt="Crazy State Laws - Trivia" />
 								</div>
 							</a>
 							<div class="content">
@@ -197,7 +212,7 @@
 					<section class="spotlight left">
 						<a href="https://github.com/JAE-S/Bamazon" target="_blank">
 							<div class="image" style="width: 100%">
-								<img align="right" src="images/bamazon_portfolio_cover.png" alt="bamazon" />
+								<img align="right" src="/assets/images/project_covers/bamazon_portfolio_cover.png" alt="bamazon" />
 							</div>
 						</a>
 						<div class="content">
@@ -211,7 +226,7 @@
 					<section class="spotlight right">
 						<a href="https://jae-s.github.io/Giphy-Project/" target="_blank">
 							<div class="image" style="width: 100%">
-								<img src="images/giphy_generator_portfolio_cover.png" alt="Giphy Generator" />
+								<img src="/assets/images/project_covers/giphy_generator_portfolio_cover.png" alt="Giphy Generator" />
 							</div>
 						</a>
 						<div class="content">
@@ -225,7 +240,7 @@
 					<section class="spotlight left">
 							<a href="https://jae-s.github.io/Psychic-Game/" target="_blank">
 								<div class="image" style="width: 100%">
-									<img align="right" src="images/psychic_game_portfolio_cover.png" alt="Psychic Game" />
+									<img align="right" src="/assets/images/project_covers/psychic_game_portfolio_cover.png" alt="Psychic Game" />
 								</div>
 							</a>
 							<div class="content">
@@ -237,30 +252,34 @@
 				</section>
 
 				<!-- Section -->
-				<section id=contact>
-					<a name="contact"></a>
-					<header>
-						<h2 style="border-bottom: 4px double black; padding-bottom: 10px">Get in touch</h2>
-					</header>
-					<div class="content">
-						<form method="post" action="https://formspree.io/jessie.sholler@gmail.com">
-							<div class="fields">
-								<div class="field half">
-									<input type="text" name="name" id="name" placeholder="Name" />
+				<div class="container-full-height"> 
+					<div id="container-contact" style="width: 100%; margin: auto; position: absolute; top: 50%; transform: translateY(-50%);">
+					<section id="contact">
+						<a name="contact"></a>
+						<header>
+							<h2 style="border-bottom: 4px double black; padding-bottom: 10px">Get in touch</h2>
+						</header>
+						<div class="content">
+							<form method="post" action="https://formspree.io/jessie.sholler@gmail.com">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									</div>
 								</div>
-								<div class="field half">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-								</div>
-							</div>
-							<ul class="actions">
-								<li><input id="send" type="submit" value="Send Message" class="button primary" /></li>
-							</ul>
-						</form>
-					</div>
-				</section>
+								<ul class="actions">
+									<li><input id="send" type="submit" value="Send Message" class="button primary" /></li>
+								</ul>
+							</form>
+						</div>
+					</section>
+				</div>
+				</div>
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -274,7 +293,7 @@
 						</ul>
 					</footer>
 
-			</div>
+			<!-- </div> -->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
