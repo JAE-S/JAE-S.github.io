@@ -119,8 +119,7 @@ a {
 #two { /* */
        margin-top: 6em;
     margin-bottom: 6em; 
-      padding-top: 2em; 
-          padding: 6em 0 4em 0;
+          padding: 6vh 0 6vh 0;
 }
 
 /* ------------- Main Containers  ------------- */
@@ -300,12 +299,13 @@ input[type="submit"].primary:hover, .button.primary:hover {
 #portfolio, .section-header { 
             margin: 0 auto; 
        text-shadow: 1px 1px 1px #000000;
-             width: 26em; 
+       max-width: 26em; 
+       width: 100%; 
      border-bottom: 4px double black; 
         border-top: 4px double black; 
        padding-top: 1em; 
     padding-bottom: 0; 
-     margin-bottom: 4em; 
+     margin-bottom: 6vh; 
         text-align: center; 
          font-size: 1.5em;
 }
@@ -317,7 +317,7 @@ input[type="submit"].primary:hover, .button.primary:hover {
 #skills {
      background-image: url("../images/background/grey_2.png");
     background-repeat: repeat;
-          padding-top: 4vh; 
+          padding-top: 6vh; 
 }
 
 .details {
