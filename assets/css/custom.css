@@ -60,7 +60,7 @@ background-repeat: no-repeat;
 .spotlight .content {
        max-width: 100%;
          padding: 2em 0em 0.1em 0em;
-    margin-right: 4em;
+    /* margin-right: 4em; */
 }
 
 .spotlight:hover {
@@ -176,7 +176,7 @@ body{
     font-weight: bold;
 }
 
-#two h2 {
+#two h2, .contact-details {
      border-bottom: 1px solid #229aa9; 
     padding-bottom: .5em; 
             margin: 20px;
@@ -186,6 +186,11 @@ body{
         text-align: left; 
     letter-spacing: 1px; 
        text-shadow: 1px 1px 1px #000000;
+}
+.contact-details {
+    margin-left: 0!important; 
+    padding-bottom: 0!important; 
+    font-size: 1.2em!important; 
 }
 
 .style1 p {
@@ -452,3 +457,17 @@ input[type="submit"].primary:hover, .button.primary:hover {
         margin-top: 4em;
     }
 }
+
+
+.box-contact {
+    display: flex;
+  }
+
+  .left-contact {
+    flex: 1 1 0;
+  }
+
+  .right-contact {
+    flex: 2 1 0;
+  }
+ 
