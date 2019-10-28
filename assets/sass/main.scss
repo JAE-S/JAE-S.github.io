@@ -393,7 +393,7 @@
 		background-color: _palette(border-bg);
 		border-radius: 3px;
 		border: none;
-		color: inherit;
+		// color: inherit;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -440,7 +440,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;

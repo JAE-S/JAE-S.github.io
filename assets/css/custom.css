@@ -43,7 +43,7 @@ background-repeat: no-repeat;
 }
 
 .wrapper.style1 {
-    color: white; 
+    /* color: white;  */
 }
 
 .spotlight {
@@ -253,30 +253,66 @@ body{
 input[type="text"], input[type="password"], input[type="email"], select, textarea  {
      background-image: url("../images/background/grey_2.png");
     background-repeat: repeat;
-              padding: 4px;
+              padding: 1em;
      background-color: transparent; 
-        border-bottom: 1px solid black; 
+        border-bottom: 4px double black; 
 }
 
 input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
          font-family:'Raleway', sans-serif;
-    background-color: black;
-               color: white; 
-       border-radius: 0; 
-          margin-top: 14px; 
+               color:rgb(172, 172, 172);
+          border-top: 1px solid #2dcee4;
+          background: -webkit-linear-gradient(top, #166670, #229aa9);
+          background: -moz-linear-gradient(top, #166670, #229aa9);
+          background: -ms-linear-gradient(top, #166670, #229aa9);
+          background: -o-linear-gradient(top, #166670, #229aa9);
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+          -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+          box-shadow: rgba(0,0,0,1) 0 1px 0;
+          text-shadow: rgb(46, 205, 228) 0px -1px 1px;
+          text-decoration: none;
 }
 
-input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    input[type="text"], input[type="password"], input[type="email"], select, textarea {
       margin-bottom: 2em; 
         font-family: 'Raleway', sans-serif;
         font-weight: bolder; 
-              color: white;
-}
+    }
+    input::placeholder, textarea::placeholder {
+        color: rgb(172, 172, 172);
+    }
+          input[type="text"]:focus, 
+         input[type="email"]:focus, 
+                    textarea:focus,
+input[type="submit"].primary:focus,
+          input[type="text"]:hover, 
+         input[type="email"]:hover, 
+                    textarea:hover,
+input[type="submit"].primary:hover, 
+             .button.primary:hover {
+                           border: 1px solid #229aa9;
+          -webkit-text-fill-color: rgb(172, 172, 172);
+               -webkit-box-shadow: 0 0 0px 1000px url("../images/background/grey_1.png") inset;
+    }
 
-input[type="submit"].primary:hover, .button.primary:hover {
-    background-color: white; 
-               color: black; 
-}
+/* Overrides autofill input section */ 
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+                           border: 1px solid #229aa9;
+          -webkit-text-fill-color: rgb(172, 172, 172);
+               -webkit-box-shadow: 0 0 0px 1000px url("../images/background/grey_1.png") inset;
+                       transition: background-color 5000s ease-in-out 0s;
+    }
 
 /* ------------- About Me Section  ------------- */
 #about-me {
@@ -470,4 +506,4 @@ input[type="submit"].primary:hover, .button.primary:hover {
   .right-contact {
     flex: 2 1 0;
   }
- 
+
