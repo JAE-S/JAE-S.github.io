@@ -150,7 +150,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #fff;
+		/* color: #fff; */
 		font-weight: 600;
 	}
 
@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		/* color: #fff; */
 		font-weight: 800;
 		letter-spacing: 0.225em;
 		line-height: 1em;
@@ -233,7 +233,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #fff;
+		/* border-bottom: solid 2px #fff; */
 		margin: 3em 0;
 	}
 
@@ -242,7 +242,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 4px #fff;
+		/* border-left: solid 4px #fff; */
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -2093,7 +2093,7 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	/* .image {
 		border-radius: 3px;
 		border: 0;
 		display: inline-block;
@@ -2133,7 +2133,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
-			}
+			} */
 
 /* List */
 
@@ -2672,7 +2672,7 @@ input, select, textarea {
 
 /* Spotlight */
 
-	.spotlight {
+	/* .spotlight {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -2689,7 +2689,7 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;  /* 40 */
+			width: 40%;  
 		}
 
 			.spotlight .image img {
@@ -2704,7 +2704,7 @@ input, select, textarea {
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
-			width: 60%;  /* 60 */
+			width: 60%;  
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2752,19 +2752,19 @@ input, select, textarea {
 
 		.spotlight:nth-child(10) {
 			background-color: rgba(0, 0, 0, 0.75);
-		}
+		} */
 
-		@media screen and (max-width: 1280px) {
+		/* @media screen and (max-width: 1280px) {
 
 			.spotlight .image {
-				width: 35%; 	/* 55 */
+				width: 35%; 	
 			}
 
 			.spotlight .content {
-				width: 65%; 	/* 55 */
+				width: 65%; 	
 			}
 
-		}
+		} */
 
 		@media screen and (max-width: 980px) {
 

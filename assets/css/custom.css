@@ -72,16 +72,12 @@ a {
     border-bottom: none;
 }
 
-.left { 
-    border-left: 4px double black;
-}
 
-.right {
-    border-right: 4px double black; 
-}
-
-.right:hover, .left:hover {
+.text-right:hover, .text-left:hover {
  border: none;
+}
+.cover-box img:hover > .text-left{
+    border: none!important;
 }
 
 .wrapper {
@@ -175,24 +171,36 @@ body{
           color: black;
     font-weight: bold;
 }
-
 #two h2, .contact-details {
-     border-bottom: 1px solid #229aa9; 
-    padding-bottom: .5em; 
-            margin: 20px;
-       font-weight: bold;
-             color: grey;
-         font-size: 1.5em; 
-        text-align: left; 
-    letter-spacing: 1px; 
-       text-shadow: 1px 1px 1px #000000;
+    margin: 20px;
 }
+
+    #two h2, .contact-details, #container-contact h2 {
+        border-bottom: 1px solid #229aa9; 
+        padding-bottom: .5em; 
+        font-weight: bold;
+                color: grey;
+            font-size: 1.5em; 
+            text-align: left; 
+        letter-spacing: 1px; 
+        text-shadow: 1px 1px 1px #000000;
+    }
+    #container-contact h2 {
+        margin-bottom: 1vh;
+    }
+    #container-contact p {
+        color: rgb(172, 172, 172);
+        margin-bottom: 2vh!important
+    }
+   
 .contact-details {
     margin-left: 0!important; 
     padding-bottom: 0!important; 
     font-size: 1.2em!important; 
 }
-
+.teal-text { 
+   color:#229aa9!important;
+}
 .style1 p {
     text-align: left; 
          color: grey;
@@ -211,6 +219,12 @@ body{
     color: #229aa9; 
 }
 
+.spotlight p {
+    margin: 0 20px 10px 20px;
+    line-height: 1.5; 
+    color: rgb(172, 172, 172);
+}
+
 /* ------------- Media  ------------- */
 #profile-image {
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
@@ -227,13 +241,78 @@ body{
 
 #myVideo { 
     height: auto;
-     width: 88%; 
+     width: 100%
 }
 
-#myVideo, .spotlight .image img {
+#myVideo, .spotlight img {
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
                 0 6px 30px 5px rgba(0,0,0,0.12), 
                 0 8px 10px -7px rgba(0,0,0,0.2);
+}
+
+.spotlight-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .spotlight-box  > * {
+    width: 200px;
+  } */
+
+  .cover-box {
+    flex: 5 2;
+    margin: 0 auto; 
+} 
+ .cover-box img {
+    max-width: 100%;
+    width: 100%;
+ }
+ .text-box {
+    flex: 6 2; 
+    margin: 0 auto; 
+} 
+.cover-left {
+    order: 1;
+}
+.cover-right {
+    order: 2;
+}
+
+.text-left { 
+    border-left: 4px double black;
+    order: 1; 
+
+}
+
+.text-right {
+    border-right: 4px double black; 
+    order: 2; 
+}
+
+@media screen and (max-width: 1072px) {
+    .spotlight-box {
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+      
+    }
+    .spotlight-box  > * {
+        flex: 1 1;
+    max-width: 600px; 
+    width: 100%;
+  }
+  .cover-left, .cover-right {
+    order: 2;
+  }
+  .text-left, .text-right {
+    order: 2;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .wrapper.style1, .spotlight:hover {
+    box-shadow: none !important; 
+     padding: 0 !important;
+}
+
 }
 
 /* ------------- Contact Section  ------------- */
@@ -298,6 +377,11 @@ input[type="submit"].primary:hover,
                -webkit-box-shadow: 0 0 0px 1000px url("../images/background/grey_1.png") inset;
     }
 
+.left-contact {
+    border-right: 4px double black; 
+    margin-right: 10px;
+}
+
 /* Overrides autofill input section */ 
     input:-webkit-autofill,
     input:-webkit-autofill:hover, 
@@ -313,6 +397,18 @@ input[type="submit"].primary:hover,
                -webkit-box-shadow: 0 0 0px 1000px url("../images/background/grey_1.png") inset;
                        transition: background-color 5000s ease-in-out 0s;
     }
+
+    .box-contact {
+        display: flex;
+      }
+    
+      .left-contact {
+        flex: 1 1 0;
+      }
+    
+      .right-contact {
+        flex: 2 0 0;
+      }
 
 /* ------------- About Me Section  ------------- */
 #about-me {
@@ -362,28 +458,14 @@ input[type="submit"].primary:hover,
 }
 
 .details {
-    color: grey;
+    color: rgb(172, 172, 172);
     text-shadow: 2px 2px 4px #000000;
 }
 
 /* ------------- Media Screen ------------- */
 
 @media screen and (max-width: 980px) {
-    .wrapper.style1, .spotlight:hover {
-        box-shadow: none !important; 
-         padding: 0 !important;
-    }
-    .left { 
-        border-left: none !important;
-    }
-    
-    .right {
-        border-right:none !important; 
-    }
-    #myVideo, .spotlight .image img {
-        width: 100%;
-    }
-
+  
     #profile-image {
         width: 14em;
         margin: 0 auto; 
@@ -397,11 +479,7 @@ input[type="submit"].primary:hover,
         margin: 0 auto;
         padding: 0;
     }
-    /* #one {
-        padding-top: 10vh!important; 
-        padding-bottom: 2vh!important; 
-    }
-     */
+  
 }
 
 @media screen and (max-width: 414px) {
@@ -495,15 +573,4 @@ input[type="submit"].primary:hover,
 }
 
 
-.box-contact {
-    display: flex;
-  }
-
-  .left-contact {
-    flex: 1 1 0;
-  }
-
-  .right-contact {
-    flex: 2 1 0;
-  }
 
