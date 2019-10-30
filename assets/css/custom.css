@@ -52,10 +52,11 @@ background-repeat: no-repeat;
     /* color: white;  */
 }
 
-.spotlight {
+.spotlight1, .spotlight {
    line-height: 0;
-        margin: 20px 80px;
+        margin: 20px 220px;
 }
+
 
 #shadow-1:hover{
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
@@ -242,8 +243,8 @@ body{
          width: 18em;
 
         /* margin: 0 auto;  */
-  margin-right: 50px;
-   margin-top: 50px;
+  /* margin-right: 50px; */
+   /* margin-top: 50px; */
 }
 
 #myVideo { 
@@ -265,10 +266,20 @@ body{
     width: 200px;
   } */
 
+  .profile-box {
+    flex: 2 3;
+    margin: 0 auto; 
+} 
+.profile-text-box {
+    flex: 4 3; 
+    margin: 0 auto; 
+} 
+
   .cover-box {
     flex: 5 2;
     margin: 0 auto; 
 } 
+
  .cover-box img {
     max-width: 100%;
     width: 100%;
@@ -428,6 +439,7 @@ input[type="submit"].primary:hover,
     padding-bottom: .4em; 
      border-bottom: 4px double black; 
        padding-top: 2.2em; 
+       padding-left: 10px;
              color: #229aa9;
         text-align: left; 
 }
@@ -477,6 +489,7 @@ input[type="submit"].primary:hover,
         width: 14em;
         margin: 0 auto; 
         margin-top: 4em;
+        border: 8px solid black;
     }
     #about-me {
         margin-top: 2em; 
