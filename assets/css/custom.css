@@ -83,8 +83,9 @@ a {
 .text-right:hover, .text-left:hover {
  border: none;
 }
-.cover-box img:hover > .text-left{
-    border: none!important;
+.cover-box:hover + .text-left, .cover-box:hover + .text-right {
+    border-left: none!important;
+    border-right: none!important;
 }
 
 .wrapper {
@@ -263,9 +264,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-/* .spotlight-box  > * {
-    width: 200px;
-  } */
 
   .profile-box {
     flex: 2 3;
