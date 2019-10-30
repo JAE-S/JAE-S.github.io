@@ -115,6 +115,9 @@ a {
 
 /* ------------- Main Containers  ------------- */
 
+.small-screen {
+    display: none; 
+}
 body.landing #page-wrapper {
          /* background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../images/background/grey_4.png"); */
          background-color: black; 
@@ -513,7 +516,29 @@ input[type="submit"].primary:hover,
 
 /* ------------- Media Screen ------------- */
 
-
+@media screen and (max-width: 916px) {
+    .left-contact {
+        flex: 1 1 0;
+      }
+    
+      .right-contact {
+        flex: 1 1 0;
+      }
+}
+@media screen and (max-width: 565px) {
+    .left-contact, .medium-screen {
+       display: none;
+      }
+      #contact-small {
+          display: block; 
+      }
+      textarea {
+          height: 100px; 
+      }
+      .small-screen {
+        display: block; 
+    }
+}
 @media screen and (max-width: 414px) {
     .section-header, #portfolio {
         font-size: 1rem; 
