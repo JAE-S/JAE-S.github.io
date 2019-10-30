@@ -234,9 +234,10 @@ body{
                 -webkit-transform: rotate(45deg); /* Safari */
                 transform: rotate(45deg);
          width: 18em;
-        margin: 0 auto; 
-  margin-right: 3em;
-   margin-left: 1em;
+
+        /* margin: 0 auto;  */
+  margin-right: 50px;
+   margin-top: 50px;
 }
 
 #myVideo { 
