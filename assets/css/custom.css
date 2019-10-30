@@ -12,8 +12,14 @@
                 0 6px 30px 5px rgba(0,0,0,0.12), 
                 0 8px 10px -7px rgba(0,0,0,0.2);
 }
-#banner h2 {
+#banner h2, #banner p {
     font-family:'Raleway', sans-serif;
+    color: rgb(172, 172, 172);
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+}
+#banner h2 {
+    margin-bottom: 8vh!important;
 }
 
 #banner, body.is-mobile.landing #banner {
@@ -560,9 +566,6 @@ input[type="submit"].primary:hover,
         padding: 0;
     }
 
-    #banner p {
-        padding-top: 3em; 
-    }
 
 }
 
