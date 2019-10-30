@@ -59,11 +59,10 @@ background-repeat: no-repeat;
                 0 8px 10px -7px rgba(0,0,0,0.2);           
 }
 
-.spotlight .content {
+/* .spotlight .content {
        max-width: 100%;
-         padding: 2em 0em 0.1em 0em;
-    /* margin-right: 4em; */
-}
+         padding: 2em 0em 0.1em 0em
+} */
 
 .spotlight:hover {
     box-shadow: 0px 5px 16px 5px black inset; 
@@ -311,6 +310,9 @@ body{
 }
 
 @media screen and (max-width: 1072px) {
+.project-description {
+    max-width: 90%!important; 
+}
 
     .profile-text-box {
         margin-right: 0!important; 
@@ -343,8 +345,9 @@ body{
     }
     .spotlight-box  > * {
         flex: 1 1;
-    max-width: 90%; 
+    max-width: 100%; 
   }
+  
   .cover-left, .cover-right {
     order: 2;
   }
@@ -510,34 +513,13 @@ input[type="submit"].primary:hover,
 
 /* ------------- Media Screen ------------- */
 
-@media screen and (max-width: 980px) {
-   
-    /* .spotlight {
-        margin: 4vh 10vw;
-    }
-    .spotlight1 {
-        margin: 4vh 10vw;
-    } */
-
-}
 
 @media screen and (max-width: 414px) {
-    /* #profile-image {
-        margin-top: 4em; 
-        width: 14em;
-    } */
     .section-header, #portfolio {
         font-size: 1rem; 
         width: 100%;
     }
 }
-
-/* @media screen and (max-width: 400px) { */
-    /* #profile-image {
-        margin-top: 4em;
-        width: 10em; 
-    }
-} */
 
 @media screen and (max-width: 375px) {
     #profile-image {
