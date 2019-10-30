@@ -48,15 +48,10 @@ background-repeat: no-repeat;
     width: 70em; 
 }
 
-.wrapper.style1 {
-    /* color: white;  */
-}
-
 .spotlight1, .spotlight {
    line-height: 0;
-        margin: 20px 220px;
+        margin: 20px 10vw;
 }
-
 
 #shadow-1:hover{
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.288), 
@@ -93,7 +88,6 @@ a {
 }
 
 #one, #skills{
-    /* padding: 1em 0 1em 0; */
      margin: auto;
    position: absolute;
         top: 50%;
@@ -107,17 +101,11 @@ a {
       overflow-x: hidden;
 }
 
-/* #two .spotlight .content {
-    padding: 0;
-     margin: 0;
-} */
 #two .spotlight .content p {
-         /* margin: 0 3em; */
     line-height: 1.5; 
     font-family: Arial, Helvetica, sans-serif; 
           color: grey; 
      text-align: left; 
-  
 }
 
 #two { /* */
@@ -181,6 +169,18 @@ body{
 }
 #two h2, .contact-details {
     margin: 20px;
+}
+.margins {
+    margin: 10vh 10vw; 
+}
+
+#container-contact {
+    width: 100%; 
+    margin: auto; 
+    position: 
+    absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
 }
 
     #two h2, .contact-details, #container-contact h2 {
@@ -267,7 +267,7 @@ body{
 
   .profile-box {
     flex: 2 3;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
 } 
 .profile-text-box {
     flex: 4 3; 
@@ -304,27 +304,46 @@ body{
     border-right: 4px double black; 
     order: 2; 
 }
+@media screen and (max-width: 1300px) {
+    .spotlight1 {
+        margin: 20px 200px; 
+    }
+}
 
 @media screen and (max-width: 1072px) {
 
+    .profile-text-box {
+        margin-right: 0!important; 
+    }
 #profile-image {
-    width: 40%!important; 
+    max-width: 220px; 
+    width: 100%;
     margin-top: 8vh; 
-    margin-bottom: 4vh; 
+    margin-bottom: 80px; 
 }
 .profile-box {
-    margin-left: 0!important; 
+    margin: 0; 
 }
-
+.spotlight .content {
+    margin: 0 auto;
+    padding: 0;
+}
+#about-me {
+    text-align: center!important; 
+    display: block!important;
+}
     .spotlight-box {
         display: flex;
         flex-direction: column; 
         flex-wrap: wrap; 
     }
+
+    .spotlight1 {
+        margin: 10vh 10vw; 
+    }
     .spotlight-box  > * {
         flex: 1 1;
-    max-width: 600px; 
-    width: 100%;
+    max-width: 90%; 
   }
   .cover-left, .cover-right {
     order: 2;
@@ -463,11 +482,11 @@ input[type="submit"].primary:hover,
 #portfolio, .section-header { 
             margin: 0 auto; 
        text-shadow: 1px 1px 1px #000000;
-       max-width: 26em; 
+       /* max-width: 26em;  */
        width: 100%; 
      border-bottom: 4px double black; 
         border-top: 4px double black; 
-       padding-top: 1em; 
+       padding-top: 20px; 
     padding-bottom: 0; 
      margin-bottom: 6vh; 
         text-align: center; 
@@ -481,7 +500,7 @@ input[type="submit"].primary:hover,
 #skills {
      background-image: url("../images/background/grey_2.png");
     background-repeat: repeat;
-          padding-top: 6vh; 
+          padding-top: 40px; 
 }
 
 .details {
@@ -492,42 +511,28 @@ input[type="submit"].primary:hover,
 /* ------------- Media Screen ------------- */
 
 @media screen and (max-width: 980px) {
-  
-    /* #profile-image {
-        width: 14em;
-        margin: 0 auto; 
-        margin-top: 4em;
-        border: 8px solid black;
-    } */
-    /* #about-me {
-        margin-top: 2em; 
-    } */
-
-    .spotlight .content {
-        margin: 0 auto;
-        padding: 0;
-    }
-    .spotlight {
-        margin: 10vh 10vw;
+   
+    /* .spotlight {
+        margin: 4vh 10vw;
     }
     .spotlight1 {
         margin: 4vh 10vw;
-    }
+    } */
 
 }
 
 @media screen and (max-width: 414px) {
-    #profile-image {
-        /* margin-top: 4em; 
-        width: 14em; */
-    }
+    /* #profile-image {
+        margin-top: 4em; 
+        width: 14em;
+    } */
     .section-header, #portfolio {
         font-size: 1rem; 
         width: 100%;
     }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) { */
     /* #profile-image {
         margin-top: 4em;
         width: 10em; 
@@ -535,32 +540,29 @@ input[type="submit"].primary:hover,
 } */
 
 @media screen and (max-width: 375px) {
-    /* #profile-image {
-        width: 10em;
-        margin-top: 4em; 
-    } */
-    .spotlight {
-        margin: 10vh 10vw;
+    #profile-image {
+        width: 60%!important;
     }
+    #skills {
+        padding-top: 20px;  
+    }
+
     .spotlight1 {
         margin: 4vh 10vw;
     }
     .profile-box {
         margin-left: 0!important; 
     }
-/* 
-    .spotlight .content {
-        margin: 0 auto;
-        margin-top: 2em;
-       padding: 0; 
-    } */
+    #one-small-screen {
+        top: 80%!important;
+    }
     .wrapper {
         margin: 0;
     }
 
     #two {
-        padding: 0;
-        margin-bottom: 2em; 
+        padding: 20px 0px; 
+        margin-bottom: 20px; 
     }
 
     #portfolio {
@@ -602,15 +604,6 @@ input[type="submit"].primary:hover,
     #header h1 a {
         text-align: center;
         padding: 0;
-    }
-
-
-}
-
-@media screen and (max-width: 200px) {
-    #profile-image {
-        margin: 0 auto; 
-        margin-top: 4em;
     }
 }
 

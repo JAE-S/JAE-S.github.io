@@ -2766,7 +2766,7 @@ input, select, textarea {
 
 		} */
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1072px) {
 
 			.spotlight {
 				display: block;
@@ -2777,7 +2777,8 @@ input, select, textarea {
 				}
 
 				.spotlight .image {
-					width: 100%;
+					width: 85%;
+					margin: 0 auto; 
 				}
 
 				.spotlight .content {
