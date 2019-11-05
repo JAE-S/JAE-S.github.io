@@ -1,8 +1,9 @@
 
 /* ------------- BANNER ------------- */
 #banner:after, body.landing #footer, .container-full-height {
-     /* background-image: url("../images/background/grey_4.png");
-    background-repeat: repeat; */
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: black;
 }
 
@@ -13,10 +14,12 @@
                 0 8px 10px -7px rgba(0,0,0,0.2);
 }
 #banner h2, #banner p {
-    font-family:'Raleway', sans-serif;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: rgb(172, 172, 172);
     text-shadow: 1px 1px 1px #000000;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 #banner h2 {
     margin-bottom: 8vh!important;
@@ -144,13 +147,18 @@ footer {
 
 /* ------------- Typography  ------------- */
 
-body{
-    font-family:'Raleway', sans-serif;
+body p, #menu ul > li > a {
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
 }
 
 #header nav {
     margin-right: 90px; 
-     font-family:'Raleway', sans-serif;
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #header h1 {
@@ -160,13 +168,22 @@ body{
 #header h1 a {
     padding-left: 80px;
             left: 0;
-     font-family:'Raleway', sans-serif;
+            font-family: source-sans-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 #portfolio h1, .section-header h1 {
     text-shadow: 1px 1px 1px #000000;
           color: black;
     font-weight: bold;
 }
+
+h2, h1 a {
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
 #two h2, .contact-details {
     margin: 20px;
 }
@@ -183,11 +200,14 @@ body{
     transform: translateY(-50%);
 }
 
+
     #two h2, .contact-details, #container-contact h2 {
         border-bottom: 1px solid #229aa9; 
         padding-bottom: .5em; 
-        font-weight: bold;
-                color: grey;
+        font-family: source-sans-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+                color: rgb(160, 160, 160);
             font-size: 1.5em; 
             text-align: left; 
         letter-spacing: 1px; 
@@ -197,8 +217,11 @@ body{
         margin-bottom: 1vh;
     }
     #container-contact p {
-        color: rgb(172, 172, 172);
-        margin-bottom: 2vh!important
+        color: rgb(160, 160, 160);
+        margin-bottom: 2vh!important;
+        font-family: source-sans-pro, sans-serif!important;
+        font-weight: 300!important;
+        font-style: normal!important;
     }
    
 .contact-details {
@@ -211,9 +234,11 @@ body{
 }
 .style1 p {
     text-align: left; 
-         color: grey;
-     font-size: .8em;
-   font-family: Arial, Helvetica, sans-serif;
+         color: rgb(160, 160, 160);
+     font-size: 1em;
+     font-family: source-sans-pro, sans-serif;
+     font-weight: 400;
+     font-style: normal;
    line-height: 1.5em; 
   padding-left: .8em;
  padding-right: .8em;
@@ -228,9 +253,10 @@ body{
 }
 
 .spotlight p {
+    font-size: .95em;
     margin: 0 20px 10px 20px;
     line-height: 1.5; 
-    color: rgb(172, 172, 172);
+    color: rgb(160, 160, 160);
 }
 
 /* ------------- Media  ------------- */
@@ -406,8 +432,9 @@ input[type="submit"].primary, input[type="reset"].primary, input[type="button"].
 
     input[type="text"], input[type="password"], input[type="email"], select, textarea {
       margin-bottom: 2em; 
-        font-family: 'Raleway', sans-serif;
-        font-weight: bolder; 
+      font-family: source-sans-pro, sans-serif;
+      font-weight: 400;
+      font-style: normal;
     }
     input::placeholder, textarea::placeholder {
         color: rgb(172, 172, 172);
@@ -638,3 +665,5 @@ url("../images/background/grey_2.png");
 /* .menu-hover a:hover  {
     color:rgb(172, 172, 172);
 } */
+
+
