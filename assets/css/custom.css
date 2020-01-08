@@ -514,7 +514,7 @@ input[type="submit"].primary:hover,
             margin: 0 auto; 
        text-shadow: 1px 1px 1px #000000;
        /* max-width: 26em;  */
-       width: 100%; 
+       /* width: 100%;  */
      border-bottom: 4px double black; 
         border-top: 4px double black; 
        padding-top: 20px; 
